@@ -1,0 +1,7 @@
+POST http://localhost:11434/api/generate
+
+{
+  "model": "llama3.2:1b-instruct-q2_K",
+  "prompt": "hello world",
+  "stream": false
+}

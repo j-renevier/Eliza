@@ -1,0 +1,49 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+*.venv
+env/
+.env/
+*.env
+
+# Flask specific
+instance/
+*.db
+*.sqlite
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Coverage reports
+.coverage
+*.coveragerc
+.coverage.*
+
+# Log files
+*.log
+
+# Flask session files
+*.session
+
+# Test and build folders
+build/
+dist/
+*.egg-info/
+
+# Dependency directories
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Other system files
+.DS_Store
+Thumbs.db
